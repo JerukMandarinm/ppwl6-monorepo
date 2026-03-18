@@ -16,7 +16,7 @@ db.run(`
 
 const app = new Elysia()
   .use(cors())
-  .get("/", () => "AKHIRNYA JALAN BOS! TANPA PRISMA!")
+  .get("/", () => "AKHIRNYA JALAN BOS!!")
   
   // Ambil semua user
   .get("/users", () => {
